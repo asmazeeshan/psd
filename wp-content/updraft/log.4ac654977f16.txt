@@ -1,0 +1,35 @@
+0391.156 (2) Opened log file at time: Thu, 15 Apr 2021 02:18:39 +0000 on http://localhost/psd
+0391.158 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.53 WP: 5.7 PHP: 8.0.2 (apache2handler, Darwin Kumals-MacBook.local 14.5.0 Darwin Kernel Version 14.5.0: Sun Jun  4 21:40:08 PDT 2017; root:xnu-2782.70.3~1/RELEASE_X86_64 x86_64) MySQL: 10.4.17-MariaDB WPLANG: en_US Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1i PHP/8.0.2 mod_perl/2.0.11 Perl/v5.32.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 41.2M | 8.5M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0391.159 (2) Free space on disk containing Updraft's temporary directory: 56425.8 MB
+0391.160 (2) Requesting backup semaphore lock (4ac654977f16)
+0391.162 (2) Backup run: resumption=2, nonce=4ac654977f16, file_nonce=4ac654977f16 begun at=1618452728 (391s ago), job type=backup
+0391.165 (2) Scheduling a resumption (3) after 300 seconds (1618453419) in case this run gets aborted
+0391.168 (2) Checking if we have a zip executable available
+0391.173 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0391.175 (2) Creation of backups of directories: already finished
+0391.176 (2) Saving backup status to database (elements: 8)
+0391.188 (2) Database dump (WordPress DB): Creation was completed already
+0391.189 (2) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0391.228 (2) backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip: plugins: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip)
+0391.241 (2) Recording as successfully uploaded: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip
+0391.250 (2) backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip: themes: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip)
+0391.253 (2) Recording as successfully uploaded: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip
+0391.261 (2) backup_2021-04-15-0212_psd_bdaa09aad31c-uploads.zip: uploads: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/backup_2021-04-15-0212_psd_bdaa09aad31c-uploads.zip)
+0391.266 (2) Recording as successfully uploaded: backup_2021-04-15-0212_psd_bdaa09aad31c-uploads.zip
+0391.271 (2) backup_2021-04-15-0212_psd_bdaa09aad31c-others.zip: others: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/backup_2021-04-15-0212_psd_bdaa09aad31c-others.zip)
+0391.278 (2) Recording as successfully uploaded: backup_2021-04-15-0212_psd_bdaa09aad31c-others.zip
+0391.285 (2) backup_2021-04-15-0212_psd_4ac654977f16-db.gz: db: This file is not ours to upload and has been/will be handled by another job.
+0391.287 (2) Saving backup history. Total backup size: Unknown
+0391.293 (2) Resume backup (4ac654977f16, 2): finish run
+0391.296 (2) There were no more files that needed uploading
+0391.300 (2) [Lock option (updraft_lock_bdaa09aad31c, wp_options) released] info
+0391.301 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+0391.305 (2) No email will be sent - this backup set was empty.
+0391.306 (2) The backup apparently succeeded and is now complete
+0000.000 (2) Opened log file at time: Thu, 15 Apr 2021 02:20:37 +0000 on http://localhost/psd
+0000.001 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.53 WP: 5.7 PHP: 8.0.2 (apache2handler, Darwin Kumals-MacBook.local 14.5.0 Darwin Kernel Version 14.5.0: Sun Jun  4 21:40:08 PDT 2017; root:xnu-2782.70.3~1/RELEASE_X86_64 x86_64) MySQL: 10.4.17-MariaDB WPLANG: en_US Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1i PHP/8.0.2 mod_perl/2.0.11 Perl/v5.32.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 38.7M | 4.5M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (2) Free space on disk containing Updraft's temporary directory: 56462.5 MB
+0000.005 (2) Requesting backup semaphore lock (4ac654977f16)
+0000.009 (2) [Lock option (updraft_lock_4ac654977f16, wp_options) was created in the database] debug
+0000.010 (2) [Lock (updraft_lock_4ac654977f16, wp_options) acquired after initialising the database] info
+0000.011 (2) This backup task (4ac654977f16) is either complete or began over 2 days ago: ending (1618453237.5005, ) (existing jobdata keys: )

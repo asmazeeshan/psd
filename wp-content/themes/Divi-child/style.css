@@ -1,0 +1,113 @@
+/*Theme Name:   Divi Child Theme
+ description: >- A child theme of the Divi
+ Author:       Asma
+ Template:     Divi
+ Version:      1.0.0
+*/
+
+
+ #et-info-email{
+    display: none;
+ }
+ #top-header .container {
+    padding-top: 1.3em;
+    padding-bottom: 0.75em;
+}
+#et-info, #et-secondary-menu>ul>li a{
+    padding-bottom: 0px;
+}
+#et-info::before { 
+    content:'Questions?Give a call to us '; 
+    margin-right: -8px;
+}
+.et_fullwidth_secondary_nav #top-header .container{
+    padding-right: 0px;
+    padding-left: 50px;
+}
+#et-info-phone{
+    margin-left: 13px;
+}
+#et-info-phone:before{
+    margin-right: 5px;
+}
+#menu-item-14 > a{
+    color:#182422 !important;
+}
+#top-menu li{
+    font-weight: bold;
+}
+#main-footer{
+    display: none;
+}
+#bullet {
+    list-style: none
+}
+#bullet li::before {
+    content: "•"; 
+    color:#7dcbbd;
+    font-size: 25px;
+    display: inline-block; 
+    width: 1em;
+  margin-left: -1em
+}
+.mainh2{
+    display: inline;
+}
+.et_main_text_h3{
+    display: inline;
+}
+#et_pb_bullets_red{
+    list-style: none ;
+}
+#et_pb_bullets_red li::before {
+  content: "•" ;
+    color:#c92027;
+    font-size: 25px;
+    display: inline-block; 
+    width: 1em;
+  margin-left: -1em
+}
+.et-pb-button-custum{
+    display: inline-block;
+    min-width: 200px;
+}
+.et-pb-button-custum::after{
+    position:absolute;
+    right:4%;
+}
+.et-pa-bullet-list-2 ul {
+    list-style-type: none ;
+}
+.et-pa-bullet-list-2 ul li:before {
+    content: '\4e';
+    color: #d14046;
+    font-family: 'ETMODULES';
+    margin-right: 10px;
+   font-size: 1.2em;
+}
+.et-pa-bullet-list-2 ul li{
+    margin-bottom: 35px;
+}
+.et-comments label{
+    margin-left: -777px;
+}
+.et-contact-span span{
+    color: #182422;
+    font-size: 14px;
+    display: inline;
+    font-weight: bold;
+}
+.wpcf7-list-item-label{
+    font-size: 12px !important;
+    font-weight: normal;
+   font-style: normal;
+}
+.et-submit-span{
+    font-size: 12px;
+    display: inline;
+}
+.et-table-customize{
+    padding:0px;
+    padding-top: 62px;
+    padding-left: 5px;
+}

@@ -1,0 +1,306 @@
+0000.000 (0) Opened log file at time: Thu, 15 Apr 2021 02:12:08 +0000 on http://localhost/psd
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.53 WP: 5.7 PHP: 8.0.2 (apache2handler, Darwin Kumals-MacBook.local 14.5.0 Darwin Kernel Version 14.5.0: Sun Jun  4 21:40:08 PDT 2017; root:xnu-2782.70.3~1/RELEASE_X86_64 x86_64) MySQL: 10.4.17-MariaDB WPLANG: en_US Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1i PHP/8.0.2 mod_perl/2.0.11 Perl/v5.32.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 38.7M | 4.5M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 56506.1 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.008 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.014 (0) Semaphore (fd, wp_options) being initialised
+0000.019 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.021 (0) Set semaphore last lock (fd) time to 2021-04-15 02:12:08
+0000.022 (0) Semaphore lock (fd) complete
+0000.026 (0) Backup run: resumption=0, nonce=bdaa09aad31c, file_nonce=bdaa09aad31c begun at=1618452728 (0s ago), job type=backup
+0000.028 (0) Scheduling a resumption (1) after 300 seconds (1618453028) in case this run gets aborted
+0000.044 (0) Checking if we have a zip executable available
+0000.045 (0) Testing: /usr/bin/zip
+0000.047 (0) PHP event: code E_WARNING: unlink(/Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/binziptest/test.zip): No such file or directory (line 1729, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.065 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.067 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.068 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.069 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.070 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.085 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.087 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.102 (0) Working binary zip found: /usr/bin/zip
+0000.106 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.107 (0) Creation of backups of directories: beginning
+0000.112 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.115 (0) PHP event: code E_WARNING: filemtime(): stat failed for /Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp (line 263, wp-content/plugins/updraftplus/backup.php)
+0000.237 (0) Total entities for the zip file: 282 directories, 1711 files (0 skipped as non-modified), 30.1 MB
+0000.241 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.245 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.250 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.254 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.259 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.263 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.267 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.269 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 1711 files batched, 732 (732) added so far); re-opening (prior size: 0 KB)
+0002.276 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: size is now: 7.00 MB
+0002.280 (0) A useful amount of data was added after this amount of zip processing: 2.3 s (normalised: 2.3 s, rate: 11014.4 KB/s)
+0002.282 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.3242430686951, normalised_time=2.3242326951895, max_time=2.2804439067841, data points known=1, old_max_bytes=26214400, new_max_bytes=67672398)
+0002.286 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 800 files added (on-disk size: 7166 KB)
+0002.290 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 900 files added (on-disk size: 7166 KB)
+0002.295 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 1000 files added (on-disk size: 7166 KB)
+0002.299 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 1100 files added (on-disk size: 7166 KB)
+0002.304 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 1200 files added (on-disk size: 7166 KB)
+0002.308 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 1300 files added (on-disk size: 7166 KB)
+0002.312 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 1400 files added (on-disk size: 7166 KB)
+0002.317 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 1500 files added (on-disk size: 7166 KB)
+0002.322 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 1600 files added (on-disk size: 7166 KB)
+0002.326 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: 1700 files added (on-disk size: 7166 KB)
+0003.340 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip.tmp: size is now: 8.80 MB
+0003.561 (0) Created plugins zip (0) - 9005.9 KB in 3.4 s (2614 KB/s) (sha1: 0e6a8b3db2912625f3ea248f1a9ed3b7adce5619, sha256: 651ca2cafe6f0d9ad36e1790f983158192dd8865027df43c08a54b78a848c552)
+0003.569 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.570 (0) PHP event: code E_WARNING: filemtime(): stat failed for /Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp (line 263, wp-content/plugins/updraftplus/backup.php)
+0003.734 (0) Total entities for the zip file: 249 directories, 1257 files (0 skipped as non-modified), 42.1 MB
+0003.738 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.749 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.754 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.766 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.771 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.777 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0003.785 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0003.790 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0003.797 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0003.801 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0003.802 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (36.9 MB, 1257 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0008.756 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: size is now: 10.50 MB
+0008.776 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: 1100 files added (on-disk size: 10709.4 KB)
+0008.784 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: 1200 files added (on-disk size: 10709.4 KB)
+0009.270 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip.tmp: size is now: 13.90 MB
+0009.595 (0) Created themes zip (0) - 14250.3 KB in 6 s (2366 KB/s) (sha1: 9a461729d0950f62de2b1a6e20512b9029a92818, sha256: 061e1f8b1fc374a68140af293b3288d571aca8520fb95601d13328bf26049b31)
+0009.602 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.603 (0) Looking for candidates to backup in: /Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/uploads
+0009.605 (0) finding files: 2021: adding to list (1)
+0009.607 (0) finding files: et_temp: adding to list (2)
+0009.609 (0) finding files: wpcf7_uploads: adding to list (3)
+0009.611 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.615 (0) PHP event: code E_WARNING: filemtime(): stat failed for /Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/backup_2021-04-15-0212_psd_bdaa09aad31c-uploads.zip.tmp (line 263, wp-content/plugins/updraftplus/backup.php)
+0009.631 (0) Total entities for the zip file: 4 directories, 127 files (0 skipped as non-modified), 13.9 MB
+0009.636 (0) Zip: backup_2021-04-15-0212_psd_bdaa09aad31c-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.967 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-uploads.zip.tmp: size is now: 13.90 MB
+0010.234 (0) Created uploads zip (0) - 14262.1 KB in 0.6 s (23127.3 KB/s) (sha1: 853675dc09b757c1408155ead3b35a4216f2f2ba, sha256: 627d5cb0a24210e9b70694a6fe0295e95b84dbf5a0ce3ef11ee9293479245482)
+0010.237 (0) Beginning backup of other directories found in the content directory (index: 0)
+0010.238 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0010.239 (0) Looking for candidates to backup in: /Applications/XAMPP/xamppfiles/htdocs/psd/wp-content
+0010.240 (0) finding files: .DS_Store: adding to list (1)
+0010.241 (0) finding files: et-cache: adding to list (2)
+0010.242 (0) finding files: index.php: adding to list (3)
+0010.242 (0) finding files: plugins: skipping: this is the plugins directory
+0010.243 (0) finding files: themes: skipping: this is the themes directory
+0010.245 (0) finding files: updraft: skipping: this is the updraft directory
+0010.246 (0) finding files: upgrade: skipping: excluded by options
+0010.248 (0) finding files: uploads: skipping: this is the uploads directory
+0010.252 (0) PHP event: code E_WARNING: filemtime(): stat failed for /Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/backup_2021-04-15-0212_psd_bdaa09aad31c-others.zip.tmp (line 263, wp-content/plugins/updraftplus/backup.php)
+0010.255 (0) Total entities for the zip file: 2 directories, 2 files (0 skipped as non-modified), 0 MB
+0010.272 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-others.zip.tmp: size is now: 0.00 MB
+0010.281 (0) Created others zip (0) - 1.3 KB in 0 s (47.7 KB/s) (sha1: a422328a2a959ccd6609324526c549f63154fe5f, sha256: 2a0c3c85fbed055ec8b1cbc65810bfb943a5de694cdcf16ddbbd3ad71bfd515c)
+0010.295 (0) Saving backup status to database (elements: 8)
+0010.299 (0) Beginning creation of database dump (WordPress DB)
+0010.313 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0010.316 (0) PHP event: code E_WARNING: unlink(/Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/f50c6e30823d27a30297548b3a827542.sqltest.tmp): No such file or directory (line 1672, wp-content/plugins/updraftplus/class-updraftplus.php)
+0010.331 (0) Table wp_options: Total expected rows (approximate): 247
+0010.423 (0) Table wp_options: Rows added in this batch (next record: 585): 243 (uncompressed bytes in this segment=737383) in 0.09 seconds
+0010.431 (0) Table wp_options: finishing file(s) (2, 199.5 KB)
+0010.434 (0) Table wp_users: Total expected rows (approximate): 0
+0010.443 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1350) in 0.01 seconds
+0010.448 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0010.452 (0) Table wp_usermeta: Total expected rows (approximate): 21
+0010.455 (0) Table wp_usermeta: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=2214) in 0.00 seconds
+0010.461 (0) Table wp_usermeta: finishing file(s) (2, 1.2 KB)
+0010.473 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0010.478 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+0010.485 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0010.488 (0) Table wp_comments: Total expected rows (approximate): 1
+0010.494 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2104) in 0.00 seconds
+0010.500 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0010.506 (0) Table wp_links: Total expected rows (approximate): 0
+0010.510 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0010.517 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0010.522 (0) Table wp_postmeta: Total expected rows (approximate): 371
+0010.531 (0) Table wp_postmeta: Rows added in this batch (next record: 605): 380 (uncompressed bytes in this segment=49419) in 0.01 seconds
+0010.537 (0) Table wp_postmeta: finishing file(s) (2, 6.9 KB)
+0010.539 (0) Table wp_posts: Total expected rows (approximate): 547
+0010.980 (0) Table wp_posts: Rows added in this batch (next record: 907): 547 (uncompressed bytes in this segment=10197293) in 0.44 seconds
+0010.988 (0) Table wp_posts: finishing file(s) (2, 685 KB)
+0010.992 (0) Table wp_term_relationships: Total expected rows (approximate): 17
+0011.000 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 19 (uncompressed bytes in this segment=938) in 0.01 seconds
+0011.008 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0011.011 (0) Table wp_term_taxonomy: Total expected rows (approximate): 2
+0011.019 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=971) in 0.01 seconds
+0011.024 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0011.027 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0011.033 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.00 seconds
+0011.039 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0011.043 (0) Table wp_terms: Total expected rows (approximate): 2
+0011.047 (0) Table wp_terms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=796) in 0.00 seconds
+0011.053 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0011.054 (0) PHP event: code E_WARNING: filemtime(): stat failed for /Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/backup_2021-04-15-0212_psd_bdaa09aad31c-db.gz (line 1816, wp-content/plugins/updraftplus/backup.php)
+0011.058 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_options.table.tmpr586.gz (1/12): adding to final database dump
+0011.116 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_options.table.gz (2/12): adding to final database dump
+0011.118 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_users.table.tmpr2.gz (3/12): adding to final database dump
+0011.120 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_users.table.gz (4/12): adding to final database dump
+0011.121 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_usermeta.table.tmpr24.gz (5/12): adding to final database dump
+0011.123 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_usermeta.table.gz (6/12): adding to final database dump
+0011.124 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_commentmeta.table.tmpr0.gz (7/12): adding to final database dump
+0011.126 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_commentmeta.table.gz (8/12): adding to final database dump
+0011.127 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_comments.table.tmpr2.gz (9/12): adding to final database dump
+0011.128 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_comments.table.gz (10/12): adding to final database dump
+0011.129 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_links.table.tmpr0.gz (11/12): adding to final database dump
+0011.130 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_links.table.gz (12/12): adding to final database dump
+0011.131 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_postmeta.table.tmpr606.gz (13/12): adding to final database dump
+0011.136 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_postmeta.table.gz (14/12): adding to final database dump
+0011.138 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_posts.table.tmpr908.gz (15/12): adding to final database dump
+0011.397 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_posts.table.gz (16/12): adding to final database dump
+0011.400 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_term_relationships.table.tmpr100001.gz (17/12): adding to final database dump
+0011.402 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_term_relationships.table.gz (18/12): adding to final database dump
+0011.403 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_term_taxonomy.table.tmpr4.gz (19/12): adding to final database dump
+0011.404 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_term_taxonomy.table.gz (20/12): adding to final database dump
+0011.405 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_termmeta.table.tmpr0.gz (21/12): adding to final database dump
+0011.407 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_termmeta.table.gz (22/12): adding to final database dump
+0011.409 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_terms.table.tmpr4.gz (23/12): adding to final database dump
+0011.410 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db-table-wp_terms.table.gz (24/12): adding to final database dump
+0011.415 (0) An error occurred while attempting to retrieve routine status (Column count of mysql.proc is wrong. Expected 21, found 20. Created with MariaDB 100108, now running 100417. Please use mysql_upgrade to fix this error - SHOW FUNCTION STATUS WHERE DB = 'psd_db')
+0011.416 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db.gz: finished writing out complete database file (872 KB)
+0011.445 (0) Total database tables backed up: 12 (backup_2021-04-15-0212_psd_bdaa09aad31c-db.gz, size: 915596, sha1: fef659c4f2898e51483c6d8ac67b245049eeefe7, sha256: 19be2ebc74bee1de006217412f91f62e35b239c8123489d0e7973e2c70f87bbb)
+0011.452 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0011.453 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0011.454 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0011.455 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0011.456 (0) backup_2021-04-15-0212_psd_bdaa09aad31c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0011.457 (0) Saving backup history. Total backup size: 37.5 MB
+0011.460 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0011.464 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0011.465 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7d3f6b13300d3d5670500c8f7e690b2b)
+0011.466 (0) Google Drive: this account is not authorised
+0011.467 (0) An error condition has occurred for the first time during this job
+0011.469 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0011.471 (0) Number of backup sets in history: 1; groups (db): 1
+0011.472 (0) Examining (for databases) backup set with group_id=0, nonce=bdaa09aad31c, datestamp=1618452728 (Apr 15 2021 02:12:08)
+0011.473 (0) This backup set is the backup set just made, so will not be deleted.
+0011.473 (0) Number of backup sets in history: 1; groups (files): 1
+0011.473 (0) Examining (for files) backup set with nonce=bdaa09aad31c, datestamp=1618452728 (Apr 15 2021 02:12:08)
+0011.473 (0) This backup set is the backup set just made, so will not be deleted.
+0011.474 (0) This backup set is the backup set just made, so will not be deleted.
+0011.474 (0) This backup set is the backup set just made, so will not be deleted.
+0011.475 (0) This backup set is the backup set just made, so will not be deleted.
+0011.475 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.476 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0011.479 (0) Resume backup (bdaa09aad31c, 0): finish run
+0011.481 (0) Decremented the semaphore (fd) by 1
+0011.482 (0) Semaphore (fd) unlocked
+0011.483 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0011.487 (0) Rescheduling resumption 1: moving to 60 seconds from now (1618452799)
+0011.488 (0) No email will/can be sent - the user has not configured an email address.
+0011.489 (0) The backup has not finished; a resumption is scheduled
+0085.801 (1) Opened log file at time: Thu, 15 Apr 2021 02:13:33 +0000 on http://localhost/psd
+0085.803 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.53 WP: 5.7 PHP: 8.0.2 (apache2handler, Darwin Kumals-MacBook.local 14.5.0 Darwin Kernel Version 14.5.0: Sun Jun  4 21:40:08 PDT 2017; root:xnu-2782.70.3~1/RELEASE_X86_64 x86_64) MySQL: 10.4.17-MariaDB WPLANG: en_US Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1i PHP/8.0.2 mod_perl/2.0.11 Perl/v5.32.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 38.7M | 8.5M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0085.803 (1) Free space on disk containing Updraft's temporary directory: 56427.9 MB
+0085.805 (1) Requesting backup semaphore lock (bdaa09aad31c)
+0085.808 (1) [Lock option (updraft_lock_bdaa09aad31c, wp_options) was created in the database] debug
+0085.810 (1) [Lock (updraft_lock_bdaa09aad31c, wp_options) acquired after initialising the database] info
+0085.813 (1) Backup run: resumption=1, nonce=bdaa09aad31c, file_nonce=bdaa09aad31c begun at=1618452728 (85s ago), job type=backup, previous check-in=11.1s
+0085.815 (1) Scheduling a resumption (2) after 300 seconds (1618453113) in case this run gets aborted
+0085.831 (1) Checking if we have a zip executable available
+0085.832 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0085.833 (1) Creation of backups of directories: already finished
+0085.834 (1) Saving backup status to database (elements: 8)
+0085.842 (1) Database dump (WordPress DB): Creation was completed already
+0085.843 (1) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0085.849 (1) backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0085.849 (1) backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0085.850 (1) backup_2021-04-15-0212_psd_bdaa09aad31c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0085.851 (1) backup_2021-04-15-0212_psd_bdaa09aad31c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0085.852 (1) backup_2021-04-15-0212_psd_bdaa09aad31c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0085.853 (1) Saving backup history. Total backup size: 37.5 MB
+0085.856 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0085.858 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0085.859 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7d3f6b13300d3d5670500c8f7e690b2b)
+0085.860 (1) Google Drive: this account is not authorised
+0085.860 (1) An error condition has occurred for the first time during this job
+0085.863 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0085.864 (1) Number of backup sets in history: 2; groups (db): 1
+0085.865 (1) Examining (for databases) backup set with group_id=0, nonce=072c298e8e82, datestamp=1618452770 (Apr 15 2021 02:12:50)
+0085.866 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0085.867 (1) Examining (for databases) backup set with group_id=0, nonce=bdaa09aad31c, datestamp=1618452728 (Apr 15 2021 02:12:08)
+0085.867 (1) This backup set is the backup set just made, so will not be deleted.
+0085.867 (1) Number of backup sets in history: 2; groups (files): 1
+0085.868 (1) Examining (for files) backup set with nonce=072c298e8e82, datestamp=1618452770 (Apr 15 2021 02:12:50)
+0085.868 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0085.869 (1) Examining (for files) backup set with nonce=bdaa09aad31c, datestamp=1618452728 (Apr 15 2021 02:12:08)
+0085.869 (1) This backup set is the backup set just made, so will not be deleted.
+0085.870 (1) This backup set is the backup set just made, so will not be deleted.
+0085.870 (1) This backup set is the backup set just made, so will not be deleted.
+0085.870 (1) This backup set is the backup set just made, so will not be deleted.
+0085.870 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0085.871 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0085.874 (1) Resume backup (bdaa09aad31c, 1): finish run
+0085.875 (1) [Lock option (updraft_lock_bdaa09aad31c, wp_options) released] info
+0085.877 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0085.879 (1) No email will/can be sent - the user has not configured an email address.
+0085.880 (1) The backup has not finished; a resumption is scheduled
+0385.656 (2) Opened log file at time: Thu, 15 Apr 2021 02:18:33 +0000 on http://localhost/psd
+0385.658 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.53 WP: 5.7 PHP: 8.0.2 (apache2handler, Darwin Kumals-MacBook.local 14.5.0 Darwin Kernel Version 14.5.0: Sun Jun  4 21:40:08 PDT 2017; root:xnu-2782.70.3~1/RELEASE_X86_64 x86_64) MySQL: 10.4.17-MariaDB WPLANG: en_US Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1i PHP/8.0.2 mod_perl/2.0.11 Perl/v5.32.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 38.7M | 6.5M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0385.658 (2) Free space on disk containing Updraft's temporary directory: 56449.6 MB
+0385.660 (2) Requesting backup semaphore lock (bdaa09aad31c)
+0385.661 (2) [Lock (updraft_lock_bdaa09aad31c, wp_options) acquired] info
+0385.664 (2) Backup run: resumption=2, nonce=bdaa09aad31c, file_nonce=bdaa09aad31c begun at=1618452728 (385s ago), job type=backup
+0385.666 (2) Scheduling a resumption (3) after 300 seconds (1618453413) in case this run gets aborted
+0385.680 (2) Checking if we have a zip executable available
+0385.681 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0385.682 (2) Creation of backups of directories: already finished
+0385.683 (2) Saving backup status to database (elements: 8)
+0385.691 (2) Database dump (WordPress DB): Creation was completed already
+0385.692 (2) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0385.698 (2) backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip: plugins: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip)
+0385.699 (2) Recording as successfully uploaded: backup_2021-04-15-0212_psd_bdaa09aad31c-plugins.zip
+0385.702 (2) backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip: themes: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip)
+0385.703 (2) Recording as successfully uploaded: backup_2021-04-15-0212_psd_bdaa09aad31c-themes.zip
+0385.705 (2) backup_2021-04-15-0212_psd_bdaa09aad31c-uploads.zip: uploads: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/backup_2021-04-15-0212_psd_bdaa09aad31c-uploads.zip)
+0385.706 (2) Recording as successfully uploaded: backup_2021-04-15-0212_psd_bdaa09aad31c-uploads.zip
+0385.708 (2) backup_2021-04-15-0212_psd_bdaa09aad31c-others.zip: others: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (/Applications/XAMPP/xamppfiles/htdocs/psd/wp-content/updraft/backup_2021-04-15-0212_psd_bdaa09aad31c-others.zip)
+0385.709 (2) Recording as successfully uploaded: backup_2021-04-15-0212_psd_bdaa09aad31c-others.zip
+0385.711 (2) backup_2021-04-15-0212_psd_bdaa09aad31c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0385.712 (2) Saving backup history. Total backup size: 37.5 MB
+0385.716 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+0385.718 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0385.719 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7d3f6b13300d3d5670500c8f7e690b2b)
+0388.142 (2) Google Drive: quota usage: used=822.7 MB, total=15360 MB, available=14537.3 MB
+0388.143 (2) Google Drive: backup_2021-04-15-0212_psd_bdaa09aad31c-db.gz: Attempting to upload to Google Drive (into folder id: 1E1QGInAOfWdUhXtjh60ze2o5o7CZhgnm)
+0391.113 (2) Googledrive chunked upload: 100 % uploaded
+0391.117 (2) Google Drive: OK: Archive backup_2021-04-15-0212_psd_bdaa09aad31c-db.gz uploaded in 2.97 seconds
+0391.118 (2) Recording as successfully uploaded: backup_2021-04-15-0212_psd_bdaa09aad31c-db.gz
+0391.121 (2) Deleting local file: backup_2021-04-15-0212_psd_bdaa09aad31c-db.gz: OK
+0391.126 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0391.128 (2) Number of backup sets in history: 4; groups (db): 1
+0391.129 (2) Examining (for databases) backup set with group_id=0, nonce=510831ce3873, datestamp=1618453108 (Apr 15 2021 02:18:28)
+0391.130 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0391.132 (2) Examining (for databases) backup set with group_id=0, nonce=06afab26121f, datestamp=1618452995 (Apr 15 2021 02:16:35)
+0391.132 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0391.132 (2) Examining (for databases) backup set with group_id=0, nonce=072c298e8e82, datestamp=1618452770 (Apr 15 2021 02:12:50)
+0391.132 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0391.132 (2) Examining (for databases) backup set with group_id=0, nonce=bdaa09aad31c, datestamp=1618452728 (Apr 15 2021 02:12:08)
+0391.132 (2) This backup set is the backup set just made, so will not be deleted.
+0391.132 (2) Number of backup sets in history: 4; groups (files): 1
+0391.134 (2) Examining (for files) backup set with nonce=510831ce3873, datestamp=1618453108 (Apr 15 2021 02:18:28)
+0391.134 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0391.135 (2) Examining (for files) backup set with nonce=06afab26121f, datestamp=1618452995 (Apr 15 2021 02:16:35)
+0391.135 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0391.136 (2) Examining (for files) backup set with nonce=072c298e8e82, datestamp=1618452770 (Apr 15 2021 02:12:50)
+0391.136 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0391.136 (2) Examining (for files) backup set with nonce=bdaa09aad31c, datestamp=1618452728 (Apr 15 2021 02:12:08)
+0391.136 (2) This backup set is the backup set just made, so will not be deleted.
+0391.137 (2) This backup set is the backup set just made, so will not be deleted.
+0391.137 (2) This backup set is the backup set just made, so will not be deleted.
+0391.137 (2) This backup set is the backup set just made, so will not be deleted.
+0391.137 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0391.138 (2) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0391.142 (2) Resume backup (bdaa09aad31c, 2): finish run
+0391.144 (2) [Lock option (updraft_lock_bdaa09aad31c, wp_options) released] info
+0391.146 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+0391.149 (2) No email will/can be sent - the user has not configured an email address.
+0391.150 (2) The backup apparently succeeded and is now complete
+0000.000 (2) Opened log file at time: Thu, 15 Apr 2021 02:19:36 +0000 on http://localhost/psd
+0000.001 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.53 WP: 5.7 PHP: 8.0.2 (apache2handler, Darwin Kumals-MacBook.local 14.5.0 Darwin Kernel Version 14.5.0: Sun Jun  4 21:40:08 PDT 2017; root:xnu-2782.70.3~1/RELEASE_X86_64 x86_64) MySQL: 10.4.17-MariaDB WPLANG: en_US Server: Apache/2.4.46 (Unix) OpenSSL/1.1.1i PHP/8.0.2 mod_perl/2.0.11 Perl/v5.32.1 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 38.7M | 6.5M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (2) Free space on disk containing Updraft's temporary directory: 56462.9 MB
+0000.004 (2) Requesting backup semaphore lock (bdaa09aad31c)
+0000.006 (2) [Lock (updraft_lock_bdaa09aad31c, wp_options) acquired] info
+0000.007 (2) This backup task (bdaa09aad31c) is either complete or began over 2 days ago: ending (1618453176.7804, ) (existing jobdata keys: )
